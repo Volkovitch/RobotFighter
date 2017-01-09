@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Graphismes/LPC Base Assets/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="castle" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Graphismes/LPC Base Assets/tiles/castle_outside.png" width="544" height="352"/>
+ </tileset>
+ <tileset firstgid="206" name="logic" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Graphismes/LPC Base Assets/tiles/waterfall.png" width="96" height="160"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9WWS47jMAxE7Rsk97/soBcNGATrR0luzEJIItkiH1kl5XNd16eMbzP3v41dDLcYpxmmHEmuJ5lSht/nu1y+5n7P9+/yHhq79eTGRnx1/bkfysutTaqfmo/yhOLtNMa4GAeLpfLscnZqgFhYT5XedzAwHytP3ZfOl80zxrvsz84ZxI380DE6NZ9445kLY6g5q/MVzU28nPQCnSkdQ62v4qi6Uvqf9KLWCnm4Oyu6GjzXOh+mvZhw1DxRTp2ear/Q2T3hUKPWs/aXnWdKR1Wj6n/KxPuIQ91lLE7XM7b+LevOvcE40D33KZ/q/un2Zut1b6Ud5/7rPHuXeKoWSFNIT26vnYE8y3rFfNJ5v6vFNH9HF+oeZ5pVjBPPrfCl/62cHrHYOzm676dyP8HAOBxNrmpgpy/SMY29wpAwndCCe/fs9vxqHVb6+gYH0oaTq6ut0xyT+rp6Oa2riY5rD1AvWKw3a+++z3S5yjI5Y6uup/1j/u5iKQ62j1pTPkC9U15SdVIcbr9RzCRv5JnVfjgMKE7CoJ6p+yYcqU92DeYLVVelZ+dZFhfV2vHFRFMpN+KYMnQcaf6uJ5THXd24uppwpFra4QWXc6WuipHlkuTf1TxlQH1TXKk/HA2pZxI9od5OajDVWOrpxAOOHrv5lR7tHpPYiXbe4pgyTXL9K74Tekn6+AbL6n5q/kSfEm/vqs8pvaU+Sdm6c/oER8Lj1p5xv3W+pbk5nOj3z/gH8DUIfRAnAAA=
+  </data>
+ </layer>
+ <layer name="Calque 2" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VwQ6EMAhE6///tCcvBMoUBVozL9lkXa3OW4GOoXMZn5OwMp/k4mU9ySN63qrFjhqNeMhsyDvNdpndXzsnf0Ozdb0TLe/My6ujKg8ts7zGWz+rtap5Math5L+0XIbyPQukJiL3qJzZ0V5enbmZXsiskvWuZULzZ7hEah7poY6eQK9D5pm1Lpu3+xfiUUGWR/Ws+sID2e+zifSHN6M6WH22t193suohj3fyiLrs4vCw4tLdCx47Z4vwJ5/da4cQQgghhBBCCCGEEFLHDXS9Ll4QJwAA
+  </data>
+ </layer>
+ <layer name="Calque 3" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2W6U3EMBCF/Y9jWdjQA9AB0AFLB0AHQAdAB0AHLB0AHQAVcN9QDA/JlqzJ+MgmtldinvRJuSZ5z/GlVHMtgWWwwtwbgAosaprU5tYqWAPr+px6dx0b7NqS2gBDsKnqGTjo/aGu42pzagtsgx2PH+6aOQ/V5tIu2AP7+pzz4/JHa5X1jkqlzUF9HoBDcMR4oBmoP1qrmHekzGB/5xicgFMmgy8HrS2d4wyMwPkYOexaoynmuRw5LsAluCLXuXmL+rNre/obs/o45T8ZqHqWa3ADbiNy0Gt2rcnRB/MJctD25/6J/awrB3fPVo+cp8ph3sv9k5j1jlvXfX5T9KuYHD7frv/i81wqh+uYriUxnl3PdZXFzlGper/iPDQdVykzuHLE9BOagWv7XBl8Obg9SMwcF5rTcq6BnIdQFt/4D83NXWbh2jgG17rIjbXUe12aqUl/aZK1hHzt6Ro7KfeA48o3f3Fjw9f2f3vdaTCTw3hAvrkq1H/MXncui9N0MnvdhdJGHJqk/tJG/6G/3IF78JDVUfd6BE/gubSRlnoBr+CttJGWegcf4LO0kZb6At/gp7QRkUgkEolEIpFIJBKJJkS/ZXpM9hAnAAA=
+  </data>
+ </layer>
+ <layer name="logic" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VSwqAIBRA0bf/xTWRRm2mQYMgyg9JZZwDTgSRiw+MqDdn9tONs0/T8Z2OKXNnbcfZ+S91pPhPR8kIc6Vjn7eruetNx2aUjtH+j6vV2vHkGxwtmVVy1h7xTgcA0J8/nRbmBQAAAAA2KxndmfgQJwAA
+  </data>
+ </layer>
+ <objectgroup name="trigger" width="50" height="50">
+  <object name="Sortie1" type="teleport" x="1039" y="682" width="72" height="73">
+   <properties>
+    <property name="dest-x" value="1200"/>
+    <property name="dest-y" value="1200"/>
+   </properties>
+  </object>
+  <object name="Entre1" type="teleport" x="708" y="775" width="89" height="79">
+   <properties>
+    <property name="dest-x" value="800"/>
+    <property name="dest-y" value="800"/>
+   </properties>
+  </object>
+  <object name="stair" type="stair" x="942" y="833" width="64" height="128"/>
+ </objectgroup>
+</map>

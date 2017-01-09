@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="40" tilewidth="34" tileheight="34">
+ <tileset firstgid="1" name="items_spritesheet" tilewidth="36" tileheight="36">
+  <image source="../../../../../../Graphismes/platformerGraphics/Items/items_spritesheet.png" width="576" height="576"/>
+ </tileset>
+ <tileset firstgid="257" name="tiles_spritesheet" tilewidth="36" tileheight="36">
+  <image source="../../../../../../Graphismes/platformerGraphics/Tiles/tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <layer name="Calque 2" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Uuw3CQBBE1+fWoBhowRmfUiCBGkwJpgGIoQuWwJID5IPkdnS8J41eevLOuG/MLp4eS/jgOWIZR/cBsw9lR/cBsw9lR/cBsw9lR/cBsw9lR/cBf95H15qtPOsZK/Sndo93ed9j49nOWKE/tXu6j9w9FPpTu6f7yP2vFPpTu9mHltmHltmHltmHltmHltmHltmHltmHltmHlu+eWyGPHfilL6XeFu2T5+xZeO+XbTkPyeya8t752/bN/7n0PR7+rZ8p7+jvEmUAAAAAAAAAAACAb3kB1t6ZeYA+AAA=
+  </data>
+ </layer>
+ <layer name="Calque 4" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UMQ4BQRSA4dlRCr0L0LsAvQvQuxyHIOEYHICe3ttCSDSrmOyS72ume5nMP3kpAQDA/xrklIa57VvwNI4WEz06YxYt5np0xjJarPQAAAAKG1Vt34B3Uz06ZVGwxyZmb/X+yrrgex1i9lGPxvq9svvqFLPPejRWtyi5r24x+65HY3WLkvuK37CLP7CvPs9LTumaXyft0gMAAAAA4DsPgfNFHoA+AAA=
+  </data>
+ </layer>
+ <layer name="Calque de Tile 1" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YO07EMBCGvQktlNBAwUOCDvHo2eUI0ABb8bgAjxJuAA0XgGPAoeAGIH60crNKiKPExjv6PunXKM3Ynsk/seIc9MWOtCvtSfs95l2V1qR1aaPHvCmxcAZP333+j9rEelctQG0AANJh6X5gAb6BNsFnedHks6OBc8eD8AhxGanGh9Jl6dxVOYmL0lLNM8TlTL0YS/eq9UM5ib7+Vc8Ql1v14g5/ZMOjevGEP7LBzyv8kQd+Xln2x6b2vTUje/fzyrI/htr3aEb2bvl+5X0xHXPG8v3K+2I65ozF+1WdL1L4pGtui/erOl+k8EnX3F3m1bl00ZD/RblfE/33CvVFW5+EnLNq/Tb5ysK5uaLbvLqWbhr2+Kbc74n6EeqLtj4JOWfV+m3yLasXK0XAIj2yrb7MSwsB8Zdn/idH5UD1/VD8dM1xSC+ic6Iafyl+u+Z4Sj8AAAAAAAAAAAAA/uQHtINZMYA+AAA=
+  </data>
+ </layer>
+ <layer name="Calque 3" width="100" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OsQkAAAjAMF/W/wf9QpEEujcCAAAAAAAAAAD4LqfangAAAAAAAOC8BqS0mYCAPgAA
+  </data>
+ </layer>
+ <objectgroup name="triggers" width="100" height="40">
+  <object name="gate1" type="teleport" x="750" y="717" width="62" height="96">
+   <properties>
+    <property name="dest-x" value="50"/>
+    <property name="dest-y" value="250"/>
+   </properties>
+  </object>
+  <object name="gate2" type="teleport" x="1" y="271" width="66" height="81">
+   <properties>
+    <property name="dest-x" value="100"/>
+    <property name="dest-y" value="75"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="collision" width="100" height="40" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XywqDMBAF0IJ7//9zXZRCF1JTp7E38RwYcGPIePPAdXkQYl2eRQZ5ZJFHFnlkkUcWeWSRRxZ5ZJFHlvc8Xs9HRT++cRbrPossssgji/Mqy12yGKXPUeZZNUqfs59Xo/1Dpc+vaq+35H5nzePTXui9Typjj7CHz2jpJzmPWXyzvnqsxeo9NWMeV7zTMlYlj6vqbI93ql9qvUf/OUcAAAAAAOhhA8kDc9+APgAA
+  </data>
+ </layer>
+</map>
